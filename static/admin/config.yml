@@ -21,11 +21,8 @@ collections:
             }
           - { label: "Meta Title", name: title, widget: string }
           - { label: "Meta Description", name: description, widget: string }
-          - { label: Heading, name: heading, widget: string }
-          - { label: HeadingIntro, name: heading_intro, widget: string }
-          - { label: HeadingOutro, name: heading_outro, widget: string }
           - { label: Image, name: image, widget: image }
-          - { label: "Welcome Copy", name: "welcome_copy", widget: "markdown" }
+          - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/people/index.md"
         label: "People"
         name: "people"
@@ -45,7 +42,7 @@ collections:
               fields:
                 [
                   { label: Name, name: name, widget: string },
-                  { label: Description, name: description, widget: markdown },
+                  { label: Description, name: description, widget: string },
                   { label: Image, name: image, widget: image },
                 ],
             }
@@ -57,7 +54,7 @@ collections:
                 [
                   { label: Name, name: name, widget: string },
                   { label: Role, name: role, widget: string },
-                  { label: Description, name: description, widget: markdown },
+                  { label: Description, name: description, widget: string },
                   { label: Image, name: image, widget: image },
                 ],
             }
@@ -69,7 +66,7 @@ collections:
                 [
                   { label: Name, name: name, widget: string },
                   { label: Role, name: role, widget: string },
-                  { label: Description, name: description, widget: markdown },
+                  { label: Description, name: description, widget: string },
                   { label: Image, name: image, widget: image },
                 ],
             }
@@ -81,7 +78,7 @@ collections:
                 [
                   { label: Name, name: name, widget: string },
                   { label: Role, name: role, widget: string },
-                  { label: Description, name: description, widget: markdown },
+                  { label: Description, name: description, widget: string },
                   { label: Image, name: image, widget: image },
                 ],
             }
@@ -97,7 +94,7 @@ collections:
             }
           - { label: "Meta Title", name: title, widget: string }
           - { label: "Meta Description", name: description, widget: string }
-          - { label: "Intro Copy", name: "featuring_copy", widget: "markdown" }
+          - { label: "Body", name: "body", widget: "markdown" }
           - {
               label: "Experiences",
               name: experiences,
@@ -111,7 +108,7 @@ collections:
                     widget: number,
                     valueType: "float",
                   },
-                  { label: Description, name: description, widget: markdown },
+                  { label: Description, name: description, widget: string },
                 ],
             }
           - {
@@ -127,6 +124,6 @@ collections:
                     widget: datetime,
                     default: "30 May 2019 19:00:00 EDT",
                   },
-                  { label: Description, name: description, widget: markdown },
+                  { label: Description, name: description, widget: string },
                 ],
             }
