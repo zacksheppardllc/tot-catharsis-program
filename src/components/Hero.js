@@ -17,10 +17,7 @@ const Hero = ({ fullheight }) => {
         <div className="container">
           <div className="compound-header">
             <p className="subtitle">Torn Out Theater's</p>
-            <p className="title">
-              <span>Catharsis</span>
-              <span>Fest</span>
-            </p>
+            <p className="title">CatharsisFest</p>
             <p className="subtitle">2019</p>
           </div>
         </div>

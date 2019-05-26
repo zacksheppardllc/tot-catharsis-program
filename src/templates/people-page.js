@@ -5,6 +5,21 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Hero from "../components/Hero";
 
+const PersonBlock = ({ entity }) => {
+  return (
+    <div className="person">
+      <div className="image">
+        <img src={entity.image} alt={entity.name} />
+      </div>
+      <div className="meta">
+        <h4 className="title">{entity.name}</h4>
+        {entity.role && <h5 className="subtitle">{entity.role}</h5>}
+        <p>{entity.description}</p>
+      </div>
+    </div>
+  );
+};
+
 export const PeoplePageTemplate = ({
   creativeTeam,
   sponsors,
@@ -21,6 +36,36 @@ export const PeoplePageTemplate = ({
       <section className="section">
         <div className="container">
           <PageContent className="content" content={content} />
+          <hr />
+          <section className="content creativeTeam">
+            <h2 name="team">Creative Team</h2>
+            {creativeTeam.map((teammate, i) => {
+              return (
+                <PersonBlock entity={teammate} key={`creativeTeam-${i}`} />
+              );
+            })}
+          </section>
+          <hr />
+          <section className="content sponsors">
+            <h2 name="sponsors">Sponsors</h2>
+            {sponsors.map((sponsor, i) => {
+              return <PersonBlock entity={sponsor} key={`sponsors-${i}`} />;
+            })}
+          </section>
+          <hr />
+          <section className="content performers">
+            <h2 name="performers">Performers</h2>
+            {performers.map((performer, i) => {
+              return <PersonBlock entity={performer} key={`performers-${i}`} />;
+            })}
+          </section>
+          <hr />
+          <section className="content volunteers">
+            <h2 name="volunteers">Volunteers</h2>
+            {volunteers.map((volunteer, i) => {
+              return <PersonBlock entity={volunteer} key={`volunteers-${i}`} />;
+            })}
+          </section>
         </div>
       </section>
     </React.Fragment>
