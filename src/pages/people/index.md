@@ -1,6 +1,6 @@
 ---
 templateKey: people-page
-title: Brought to you by
+title: CatharsisFest 2019 is brought to you by
 description: An overview of our creative team, generous sponsors, performers, and volunteers.
 sponsors:
   - name: Sample Sponsor

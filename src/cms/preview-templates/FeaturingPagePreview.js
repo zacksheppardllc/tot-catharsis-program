@@ -11,8 +11,6 @@ const FeaturingPagePreview = ({ entry, widgetFor }) => {
 
   return (
     <FeaturingPageTemplate
-      title={entry.getIn(["data", "title"])}
-      description={entry.getIn(["data", "description"])}
       content={widgetFor("body")}
       experiences={experiences}
       performances={performances}

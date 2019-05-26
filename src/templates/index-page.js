@@ -6,22 +6,14 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Hero from "../components/Hero";
 
-export const IndexPageTemplate = ({
-  image,
-  title,
-  description,
-  content,
-  contentComponent
-}) => {
+export const IndexPageTemplate = ({ content, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
   return (
     <React.Fragment>
-      <Hero />
+      <Hero fullheight={true} />
       <section className="section">
         <div className="container">
-          <p>Title: {title}</p>
-          <p>description: {description}</p>
           <PageContent className="content" content={content} />
         </div>
       </section>
@@ -30,35 +22,28 @@ export const IndexPageTemplate = ({
 };
 
 IndexPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  title: PropTypes.string,
-  description: PropTypes.string,
   content: PropTypes.any.isRequired
 };
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark;
+  const { frontmatter, html } = data.markdownRemark;
 
   return (
-    <Layout>
-      <IndexPageTemplate
-        contentComponent={HTMLContent}
-        image={frontmatter.image}
-        title={frontmatter.title}
-        description={frontmatter.description}
-        content={data.html}
-      />
+    <Layout
+      metaTitle={frontmatter.title}
+      metaDescription={frontmatter.description}
+    >
+      <IndexPageTemplate contentComponent={HTMLContent} content={html} />
     </Layout>
   );
 };
 
 IndexPage.propTypes = {
   data: PropTypes.shape({
-    html: PropTypes.object.isRequired,
     markdownRemark: PropTypes.shape({
+      html: PropTypes.any.isRequired,
       frontmatter: PropTypes.shape({
         title: PropTypes.string.isRequired,
-        image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
         description: PropTypes.string
       }).isRequired
     })
@@ -73,13 +58,6 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
         description
       }
     }

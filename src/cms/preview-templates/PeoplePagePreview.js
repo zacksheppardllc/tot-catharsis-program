@@ -17,8 +17,6 @@ const PeoplePagePreview = ({ entry }) => {
 
   return (
     <PeoplePageTemplate
-      title={entry.getIn(["data", "title"])}
-      description={entry.getIn(["data", "description"])}
       creativeTeam={creativeTeam}
       sponsors={sponsors}
       performers={performers}

@@ -2,6 +2,7 @@
 
 // Config vars
 $catharsis-blue: #72dec1;
+$grey-darkest: #101010;
 
 $primary: $black;
 $link: rgba(
@@ -14,11 +15,13 @@ $text: $white;
 
 $background: $primary;
 
+$footer-background-color: $grey-darkest;
+
 // Navbar config
 
 $navbar-breakpoint: 450px;
 $navbar-dropdown-item-hover-color: $white;
-$navbar-background-color: #101010;
+$navbar-background-color: $grey-darkest;
 $navbar-dropdown-background-color: $grey-darker;
 $navbar-item-color: $white;
 $navbar-item-hover-background-color: $black;
@@ -26,6 +29,18 @@ $navbar-item-active-color: $white;
 $navbar-dropdown-border-top: 2px solid $black;
 
 @import "~bulma";
+
+.content {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $catharsis-blue;
+    font-family: "Alpha Echo";
+  }
+}
 
 %title-style {
   text-transform: uppercase;
@@ -88,6 +103,7 @@ button.navbar-burger {
     font-size: 0.7rem;
     text-align: right;
     padding: 5px;
+    padding-bottom: 1.5rem;
     opacity: 0.8;
   }
 
@@ -96,17 +112,23 @@ button.navbar-burger {
     display: flex;
     flex-direction: column;
     flex-shrink: 1;
+    font-size: 6vw;
+
+    @media screen and (min-width: 800px) {
+      font-size: 3rem;
+    }
 
     .title {
       color: $catharsis-blue;
       text-align: justify;
-      font-size: 2.6rem;
+      font-size: 2em;
       flex-shrink: 1;
     }
 
     .subtitle {
       color: $white;
       flex-shrink: 1;
+      font-size: 1em;
 
       &:first-child {
         text-align: left;
@@ -117,5 +139,11 @@ button.navbar-burger {
         align-self: flex-end;
       }
     }
+  }
+}
+
+.footer {
+  p {
+    font-size: 0.75rem;
   }
 }

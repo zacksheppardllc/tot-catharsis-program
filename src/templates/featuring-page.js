@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import Hero from "../components/Hero";
 
 export const FeaturingPageTemplate = ({
   title,
@@ -15,13 +16,20 @@ export const FeaturingPageTemplate = ({
   const PageContent = contentComponent || Content;
 
   return (
-    <div>
-      <p>Title: {title}</p>
-      <p>description: {description}</p>
-      <PageContent className="content" content={content} />
-      <p>Experiences: {experiences.length}</p>
-      <p>performances: {performances.length}</p>
-    </div>
+    <React.Fragment>
+      <Hero />
+      <section className="section">
+        <div className="container">
+          <div>
+            <p>Title: {title}</p>
+            <p>description: {description}</p>
+            <PageContent className="content" content={content} />
+            <p>Experiences: {experiences.length}</p>
+            <p>performances: {performances.length}</p>
+          </div>
+        </div>
+      </section>
+    </React.Fragment>
   );
 };
 
@@ -34,15 +42,16 @@ FeaturingPageTemplate.propTypes = {
 };
 
 const FeaturingPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark;
+  const { frontmatter, html } = data.markdownRemark;
 
   return (
-    <Layout>
+    <Layout
+      metaTitle={frontmatter.title}
+      metaDescription={frontmatter.description}
+    >
       <FeaturingPageTemplate
         contentComponent={HTMLContent}
-        title={frontmatter.title}
-        description={frontmatter.description}
-        content={data.html}
+        content={html}
         experiences={frontmatter.experiences}
         performances={frontmatter.performances}
       />
@@ -52,8 +61,8 @@ const FeaturingPage = ({ data }) => {
 
 FeaturingPage.propTypes = {
   data: PropTypes.shape({
-    html: PropTypes.object.isRequired,
     markdownRemark: PropTypes.shape({
+      html: PropTypes.any.isRequired,
       frontmatter: PropTypes.object
     })
   })
