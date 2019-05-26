@@ -2,20 +2,25 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
+import Content, { HTMLContent } from "../components/Content";
 import Hero from "../components/Hero";
 
 export const PeoplePageTemplate = ({
   creativeTeam,
   sponsors,
   performers,
-  volunteers
+  volunteers,
+  content,
+  contentComponent
 }) => {
+  const PageContent = contentComponent || Content;
+
   return (
     <React.Fragment>
       <Hero />
       <section className="section">
         <div className="container">
-          <p>People Page</p>
+          <PageContent className="content" content={content} />
         </div>
       </section>
     </React.Fragment>
@@ -23,6 +28,7 @@ export const PeoplePageTemplate = ({
 };
 
 PeoplePageTemplate.propTypes = {
+  content: PropTypes.any,
   creativeTeam: PropTypes.array.isRequired,
   sponsors: PropTypes.array.isRequired,
   performers: PropTypes.array.isRequired,
@@ -30,7 +36,7 @@ PeoplePageTemplate.propTypes = {
 };
 
 const PeoplePage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark;
+  const { frontmatter, html } = data.markdownRemark;
 
   return (
     <Layout
@@ -38,6 +44,8 @@ const PeoplePage = ({ data }) => {
       metaDescription={frontmatter.description}
     >
       <PeoplePageTemplate
+        contentComponent={HTMLContent}
+        content={html}
         sponsors={frontmatter.sponsors}
         creativeTeam={frontmatter.creative_team}
         volunteers={frontmatter.volunteers}
@@ -50,6 +58,7 @@ const PeoplePage = ({ data }) => {
 PeoplePage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
+      html: PropTypes.any.isRequired,
       frontmatter: PropTypes.shape({
         sponsors: PropTypes.array,
         creative_team: PropTypes.array,
@@ -65,6 +74,7 @@ export default PeoplePage;
 export const peoplePageQuery = graphql`
   query PeoplePage {
     markdownRemark(frontmatter: { templateKey: { eq: "people-page" } }) {
+      html
       frontmatter {
         sponsors {
           name

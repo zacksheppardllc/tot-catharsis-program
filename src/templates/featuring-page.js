@@ -6,8 +6,6 @@ import Content, { HTMLContent } from "../components/Content";
 import Hero from "../components/Hero";
 
 export const FeaturingPageTemplate = ({
-  title,
-  description,
   content,
   experiences,
   performances,
@@ -20,13 +18,9 @@ export const FeaturingPageTemplate = ({
       <Hero />
       <section className="section">
         <div className="container">
-          <div>
-            <p>Title: {title}</p>
-            <p>description: {description}</p>
-            <PageContent className="content" content={content} />
-            <p>Experiences: {experiences.length}</p>
-            <p>performances: {performances.length}</p>
-          </div>
+          <PageContent className="content" content={content} />
+          <p>Experiences: {experiences.length}</p>
+          <p>performances: {performances.length}</p>
         </div>
       </section>
     </React.Fragment>
@@ -34,8 +28,6 @@ export const FeaturingPageTemplate = ({
 };
 
 FeaturingPageTemplate.propTypes = {
-  title: PropTypes.string,
-  description: PropTypes.string,
   content: PropTypes.any,
   experiences: PropTypes.array,
   performances: PropTypes.array

@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { PeoplePageTemplate } from "../../templates/people-page";
 
-const PeoplePagePreview = ({ entry }) => {
+const PeoplePagePreview = ({ entry, widgetFor }) => {
   const creativeTeamIn = entry.getIn(["data", "creative_team"]);
   const creativeTeam = creativeTeamIn ? creativeTeamIn.toJS() : [];
 
@@ -17,6 +17,7 @@ const PeoplePagePreview = ({ entry }) => {
 
   return (
     <PeoplePageTemplate
+      content={widgetFor("body")}
       creativeTeam={creativeTeam}
       sponsors={sponsors}
       performers={performers}
@@ -28,7 +29,8 @@ const PeoplePagePreview = ({ entry }) => {
 PeoplePagePreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func
-  })
+  }),
+  widgetFor: PropTypes.func
 };
 
 export default PeoplePagePreview;
