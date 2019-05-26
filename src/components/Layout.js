@@ -4,16 +4,19 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import useSiteMetadata from "./SiteMetadata";
 
-import "./styles/master.sass";
+import "./styles/fonts/alpha_echo.css";
+import "./styles/master.scss";
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
   return (
-    <div>
+    <React.Fragment>
       <Helmet>
-        <html lang="en" />
+        <html lang="en" className="has-navbar-fixed-top" />
+        <meta charset="utf-8" />
         <title>{title}</title>
         <meta name="description" content={description} />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <link
           rel="apple-touch-icon"
@@ -46,9 +49,9 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:image" content="/img/og-image.jpg" />
       </Helmet>
       <Navbar />
-      <div>{children}</div>
+      {children}
       <Footer />
-    </div>
+    </React.Fragment>
   );
 };
 
