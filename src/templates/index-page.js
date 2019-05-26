@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import Hero from "../components/Hero";
 
 export const IndexPageTemplate = ({
   image,
@@ -15,11 +16,16 @@ export const IndexPageTemplate = ({
   const PageContent = contentComponent || Content;
 
   return (
-    <div>
-      <p>Title: {title}</p>
-      <p>description: {description}</p>
-      <PageContent className="content" content={content} />
-    </div>
+    <React.Fragment>
+      <Hero />
+      <section className="section">
+        <div className="container">
+          <p>Title: {title}</p>
+          <p>description: {description}</p>
+          <PageContent className="content" content={content} />
+        </div>
+      </section>
+    </React.Fragment>
   );
 };
 
