@@ -1,6 +1,6 @@
 ---
 templateKey: featuring-page
-title: Featuring
+title: CatharsisFest 2019 Features
 description: The night's experiences and performances.
 experiences:
   - name: Sample Experience

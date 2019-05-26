@@ -2,26 +2,27 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
+import Hero from "../components/Hero";
 
 export const PeoplePageTemplate = ({
-  title,
-  description,
   creativeTeam,
   sponsors,
   performers,
   volunteers
 }) => {
   return (
-    <div>
-      <p>Title: {title}</p>
-      <p>description: {description}</p>
-    </div>
+    <React.Fragment>
+      <Hero />
+      <section className="section">
+        <div className="container">
+          <p>People Page</p>
+        </div>
+      </section>
+    </React.Fragment>
   );
 };
 
 PeoplePageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
   creativeTeam: PropTypes.array.isRequired,
   sponsors: PropTypes.array.isRequired,
   performers: PropTypes.array.isRequired,
@@ -29,17 +30,18 @@ PeoplePageTemplate.propTypes = {
 };
 
 const PeoplePage = ({ data }) => {
-  const { markdownRemark } = data;
+  const { frontmatter } = data.markdownRemark;
 
   return (
-    <Layout>
+    <Layout
+      metaTitle={frontmatter.title}
+      metaDescription={frontmatter.description}
+    >
       <PeoplePageTemplate
-        title={markdownRemark.frontmatter.title}
-        description={markdownRemark.frontmatter.description}
-        sponsors={markdownRemark.frontmatter.sponsors}
-        creativeTeam={markdownRemark.frontmatter.creative_team}
-        volunteers={markdownRemark.frontmatter.volunteers}
-        performers={markdownRemark.frontmatter.performers}
+        sponsors={frontmatter.sponsors}
+        creativeTeam={frontmatter.creative_team}
+        volunteers={frontmatter.volunteers}
+        performers={frontmatter.performers}
       />
     </Layout>
   );
@@ -49,8 +51,6 @@ PeoplePage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.shape({
-        title: PropTypes.string.isRequired,
-        description: PropTypes.string,
         sponsors: PropTypes.array,
         creative_team: PropTypes.array,
         volunteers: PropTypes.array,
@@ -66,8 +66,6 @@ export const peoplePageQuery = graphql`
   query PeoplePage {
     markdownRemark(frontmatter: { templateKey: { eq: "people-page" } }) {
       frontmatter {
-        title
-        description
         sponsors {
           name
           description

@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
-title: Welcome
-description: Welcome to CatharsisFest 2019, presented by Torn Out Theater.
+title: CatharsisFest 2019 - Presented by Torn Out Theater
+description: An immersive carnival of rage, passion, and recovery. In New York City on May 30, 8-11pm. Buy tickets now!
 image: /img/home-jumbotron.jpg
 ---
 

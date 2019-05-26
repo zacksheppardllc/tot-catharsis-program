@@ -6,14 +6,7 @@ const IndexPagePreview = ({ entry, widgetFor }) => {
   const data = entry.getIn(["data"]).toJS();
 
   if (data) {
-    return (
-      <IndexPageTemplate
-        image={data.image}
-        title={data.title}
-        description={data.description}
-        content={widgetFor("body")}
-      />
-    );
+    return <IndexPageTemplate content={widgetFor("body")} />;
   } else {
     return <div>Loading...</div>;
   }
