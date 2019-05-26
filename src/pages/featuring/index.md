@@ -12,6 +12,6 @@ performances:
     description: Sample Description
 ---
 
-# Intro Copy
+# Featured Experiences
 
-This is the introduction copy for the "Featuring" section.
+It's going to be an exciting night of experiences, performances, surprises, and _fury_.

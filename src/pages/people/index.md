@@ -22,3 +22,7 @@ volunteers:
     description: Sample Description
     image: /img/flavor-wheel.jpg
 ---
+
+# Our Team
+
+CatharsisFest wouldn't be possible without our sponsors, team, performers, and volunteers. Thank you to all who helped make this a reality.
