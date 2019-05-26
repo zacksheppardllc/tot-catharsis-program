@@ -9,6 +9,10 @@ const Navbar = class extends React.Component {
     };
   }
 
+  hideNavbar = () => {
+    this.setState({ active: false });
+  };
+
   render() {
     return (
       <nav
@@ -40,40 +44,80 @@ const Navbar = class extends React.Component {
           className={"navbar-menu" + (this.state.active ? " is-active" : "")}
         >
           <div className="navbar-start" />
-          <Link to="/#welcome" className="navbar-item">
+          <Link
+            className="navbar-item"
+            onClick={this.hideNavbar}
+            to="/#welcome"
+          >
             Welcome
           </Link>
           <div className="navbar-item has-dropdown is-hoverable">
-            <Link to="/people" className="navbar-link">
+            <Link
+              onClick={this.hideNavbar}
+              to="/people"
+              className="navbar-link"
+            >
               Brought to you by
             </Link>
             <div className="navbar-dropdown">
-              <Link to="/people#sponsors" className="navbar-item">
+              <Link
+                className="navbar-item"
+                onClick={this.hideNavbar}
+                to="/people#sponsors"
+              >
                 Our Sponsors
               </Link>
-              <Link to="/people#team" className="navbar-item">
+              <Link
+                className="navbar-item"
+                onClick={this.hideNavbar}
+                to="/people#team"
+              >
                 Torn Out's Team
               </Link>
-              <Link to="/people#performers" className="navbar-item">
+              <Link
+                className="navbar-item"
+                onClick={this.hideNavbar}
+                to="/people#performers"
+              >
                 Performers
               </Link>
-              <Link to="/people#volunteers" className="navbar-item">
+              <Link
+                className="navbar-item"
+                onClick={this.hideNavbar}
+                to="/people#volunteers"
+              >
                 Volunteers
               </Link>
             </div>
           </div>
           <div className="navbar-item has-dropdown is-hoverable">
-            <Link to="/featuring" className="navbar-link">
+            <Link
+              onClick={this.hideNavbar}
+              to="/featuring"
+              className="navbar-link"
+            >
               Featuring
             </Link>
             <div className="navbar-dropdown">
-              <Link to="/featuring" className="navbar-item">
+              <Link
+                className="navbar-item"
+                onClick={this.hideNavbar}
+                to="/featuring"
+              >
                 The Space
               </Link>
-              <Link to="/featuring#experiences" className="navbar-item">
+              <Link
+                className="navbar-item"
+                onClick={this.hideNavbar}
+                to="/featuring#experiences"
+              >
                 Experiences
               </Link>
-              <Link to="/featuring#performances" className="navbar-item">
+              <Link
+                className="navbar-item"
+                onClick={this.hideNavbar}
+                to="/featuring#performances"
+              >
                 Performances
               </Link>
             </div>

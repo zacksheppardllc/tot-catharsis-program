@@ -5,6 +5,16 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import Hero from "../components/Hero";
 
+const FeaturingBlock = ({ name, description, meta }) => {
+  return (
+    <div className="featured">
+      <h4 className="title">{name}</h4>
+      <h5 className="subtitle">{meta}</h5>
+      <p>{description}</p>
+    </div>
+  );
+};
+
 export const FeaturingPageTemplate = ({
   content,
   experiences,
@@ -17,10 +27,34 @@ export const FeaturingPageTemplate = ({
     <React.Fragment>
       <Hero />
       <section className="section">
-        <div className="container">
+        <div className="container" name="space">
           <PageContent className="content" content={content} />
-          <p>Experiences: {experiences.length}</p>
-          <p>performances: {performances.length}</p>
+          <hr />
+          <section className="content experiences">
+            <h2 name="experiences">Experiences</h2>
+            {experiences.map((experience, i) => {
+              return (
+                <FeaturingBlock
+                  {...experience}
+                  meta={`$${experience.price}`}
+                  key={`experiences-${i}`}
+                />
+              );
+            })}
+          </section>
+          <hr />
+          <section className="content performances">
+            <h2 name="performances">Performances</h2>
+            {performances.map((performance, i) => {
+              return (
+                <FeaturingBlock
+                  {...performance}
+                  meta={performance.start_time}
+                  key={`performances-${i}`}
+                />
+              );
+            })}
+          </section>
         </div>
       </section>
     </React.Fragment>
