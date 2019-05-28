@@ -8,8 +8,10 @@ import Hero from "../components/Hero";
 const FeaturingBlock = ({ name, description, meta }) => {
   return (
     <div className="featured">
-      <h4 className="title">{name}</h4>
-      <h5 className="subtitle">{meta}</h5>
+      <div className="meta">
+        <h4>{name}</h4>
+        <h5>{meta}</h5>
+      </div>
       <p>{description}</p>
     </div>
   );
