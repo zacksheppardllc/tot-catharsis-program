@@ -148,6 +148,14 @@ button.navbar-burger {
   max-width: 900px;
 }
 
+strong {
+  color: $white;
+}
+
+.content img {
+  max-height: 400px;
+}
+
 .featured,
 .person {
   .meta {
