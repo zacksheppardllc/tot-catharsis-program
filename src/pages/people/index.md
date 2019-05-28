@@ -1,26 +1,31 @@
 ---
 templateKey: people-page
 title: CatharsisFest 2019 is brought to you by
-description: An overview of our creative team, generous sponsors, performers, and volunteers.
+description: >-
+  An overview of our creative team, generous sponsors, performers, and
+  volunteers.
 sponsors:
-  - name: Sample Sponsor
-    description: Sample Sponsor Description
+  - description: Sample Sponsor Description
     image: /img/flavor-wheel.jpg
+    name: Sample Sponsor
+  - description: This is the second sponsor
+    image: /img/12946841_10102353785581622_1487040008_o.png
+    name: Sponsor two
 creative_team:
-  - name: Sample Team Member
-    role: Sample Role
-    description: Sample Description
+  - description: Sample Description
     image: /img/flavor-wheel.jpg
+    name: Sample Team Member
+    role: Sample Role
 performers:
-  - name: Sample Team Member
-    role: Sample Role
-    description: Sample Description
+  - description: Sample Description
     image: /img/flavor-wheel.jpg
+    name: Sample Team Member
+    role: Sample Role
 volunteers:
-  - name: Sample Team Member
-    role: Sample Role
-    description: Sample Description
+  - description: Sample Description
     image: /img/flavor-wheel.jpg
+    name: Sample Team Member
+    role: Sample Role
 ---
 
 # Our Team
