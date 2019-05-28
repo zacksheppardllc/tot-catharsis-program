@@ -11,9 +11,11 @@ const PersonBlock = ({ entity }) => {
       <div className="image">
         <img src={entity.image} alt={entity.name} />
       </div>
-      <div className="meta">
-        <h4 className="title">{entity.name}</h4>
-        {entity.role && <h5 className="subtitle">{entity.role}</h5>}
+      <div className="text">
+        <div className="meta">
+          <h4>{entity.name}</h4>
+          {entity.role && <h5>{entity.role}</h5>}
+        </div>
         <p>{entity.description}</p>
       </div>
     </div>
