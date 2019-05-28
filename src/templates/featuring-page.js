@@ -48,10 +48,15 @@ export const FeaturingPageTemplate = ({
           <section className="content performances">
             <h2 name="performances">Performances</h2>
             {performances.map((performance, i) => {
+              const startTimeDate = new Date(performance.start_time);
+              const startTime = startTimeDate.toLocaleTimeString([], {
+                hour: "2-digit",
+                minute: "2-digit"
+              });
               return (
                 <FeaturingBlock
                   {...performance}
-                  meta={performance.start_time}
+                  meta={startTime}
                   key={`performances-${i}`}
                 />
               );
