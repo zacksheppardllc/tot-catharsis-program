@@ -2,7 +2,11 @@
   "name": "tot-catharsis-program",
   "description": "The program for Torn Out Theater's 2019 CatharsisFest",
   "version": "1.0.0",
-  "author": "Zack Sheppard (based on work by Austin Green)",
+  "author": "Zack Sheppard (forked from work by Gatsby + NetlifyCMS)",
+  "repository": {
+    "url": "https://github.com/genuinezack/tot-catharsis-program",
+    "type": "git"
+  },
   "dependencies": {
     "bulma": "^0.7.5",
     "gatsby": "^2.7.1",
