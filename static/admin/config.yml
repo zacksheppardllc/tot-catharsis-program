@@ -102,12 +102,7 @@ collections:
               fields:
                 [
                   { label: Name, name: name, widget: string },
-                  {
-                    label: Price,
-                    name: price,
-                    widget: number,
-                    valueType: "float",
-                  },
+                  { label: Price, name: price, widget: string },
                   { label: Description, name: description, widget: string },
                 ],
             }
@@ -118,12 +113,6 @@ collections:
               fields:
                 [
                   { label: Name, name: name, widget: string },
-                  {
-                    label: "Start Time",
-                    name: start_time,
-                    widget: datetime,
-                    default: "30 May 2019 19:00:00 EDT",
-                  },
                   { label: Description, name: description, widget: string },
                 ],
             }

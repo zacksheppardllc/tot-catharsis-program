@@ -86,7 +86,7 @@ const Navbar = class extends React.Component {
                 onClick={this.hideNavbar}
                 to="/people#volunteers"
               >
-                Volunteers
+                Special Thanks
               </Link>
             </div>
           </div>
