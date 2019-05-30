@@ -17,9 +17,15 @@ creative_team:
     name: Sample Team Member
     role: Sample Role
 performers:
-  - description: Sample Description
-    image: /img/flavor-wheel.jpg
-    name: Sample Team Member
+  - description: >-
+      Nell is a British Actor and Producer living and experimenting in the US.
+      Having trained at the Royal Academy of Dramatic Arts and Barnard College,
+      Nell is currently working with Killer Films and playing in the creative
+      pool of NYC. She is very excited to be involved in Torn Out's
+      Catharsisfest, as she is desperately in need of some post-grad cathartic
+      activities! https://www.nellrbailey.com/ Instagram: @nell_rose_bailey
+    image: /img/aw_nellheadshots-4.jpeg
+    name: Nell Rose Bailey
     role: Sample Role
 volunteers:
   - description: Sample Description
