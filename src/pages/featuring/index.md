@@ -4,6 +4,20 @@ title: CatharsisFest 2019 Features
 description: The night's experiences and performances.
 experiences:
   - description: >-
+      Is it just us, or is Mexican food inherently cathartic? Either way, The
+      Mexi Boys have graced our festival with delicious, freshly made, vegan
+      delights, and you better believe that booth's gonna be busy. Come for the
+      catharsis, stay for the tacos.
+    name: the mexi boys!
+    price: Just ask!
+  - description: >-
+      Make your own flogger so that you can get your rage out with a
+      (consenting) partner. Yours to take home with you! Pearls, chains,
+      ribbons, and more! Your choice, personalize it as much as you like. /// 7
+      tokens: make a flogger
+    name: DIY Floggers
+    price: 7 tokens
+  - description: >-
       Psst. Tell us your secret. Confess your deepest fears, your regrets, your
       hopes you're afraid to say out loud  – or eavesdrop on other people's
       confessions anonymously! /// 2 tokens: confession booth visit, but
@@ -14,13 +28,20 @@ experiences:
     name: Confession Booth
     price: 2-10 tokens
   - description: >-
-      Two fortune-tellers roam the carnival, waiting to unlock your future. But
-      beware – one tells your fortune through rose-colored glasses, and the
-      other sees only darkness ahead. Which one will you get? /// 2 tokens: have
-      your fortune told by one of the fortune-tellers /// 3 tokens: have your
-      fortune told by both of them
-    name: Doomsday Fortune Tellers
-    price: 2-3 tokens
+      Achieve catharsis through pain. Have the Mistress spank you as hard or
+      soft as you like, or have her teach you how to safely spank your partner.
+      If you make a flogger first, you can use that here! /// 7 tokens: get
+      spanked, or learn how to spank!
+    name: Spanking booth
+    price: 7 tokens
+  - description: >-
+      Ever build something perfect and beautiful as a kid, just so you could
+      smash it down? Do you yearn for the child-like glee of smushing play-doh
+      between your fingers? Is there someone or something out there you'd
+      really, REALLY like to smash? Come and make a playdoh sculpture of your
+      least-favorite thing, and then crush it (or crush someone else's)!
+    name: Playdoh smashing
+    price: free!
   - description: >-
       Your body is a work of art – let our artist add to your canvas! /// 2
       tokens: have your face or body painted
@@ -34,26 +55,13 @@ experiences:
     name: Target Practice
     price: 2 tokens
   - description: >-
-      Make your own flogger so that you can get your rage out with a
-      (consenting) partner. Yours to take home with you! Pearls, chains,
-      ribbons, and more! Your choice, personalize it as much as you like. /// 7
-      tokens: make a flogger
-    name: DIY Floggers
-    price: 7 tokens
-  - description: >-
-      Achieve catharsis through pain. Have the Mistress spank you as hard or
-      soft as you like, or have her teach you how to safely spank your partner.
-      If you make a flogger first, you can use that here! /// 7 tokens: get
-      spanked, or learn how to spank!
-    name: Spanking booth
-    price: 7 tokens
-  - description: >-
-      Is it just us, or is Mexican food inherently cathartic? Either way, The
-      Mexi Boys have graced our festival with delicious, freshly made, vegan
-      delights, and you better believe that booth's gonna be busy. Come for the
-      catharsis, stay for the tacos.
-    name: the mexi boys!
-    price: Just ask!
+      Two fortune-tellers roam the carnival, waiting to unlock your future. But
+      beware – one tells your fortune through rose-colored glasses, and the
+      other sees only darkness ahead. Which one will you get? /// 2 tokens: have
+      your fortune told by one of the fortune-tellers /// 3 tokens: have your
+      fortune told by both of them
+    name: Doomsday Fortune Tellers
+    price: 2-3 tokens
 performances:
   - description: 'MADDIE JAINA has songs to speak to your soul, warm and soulful and true.'
     name: Music
@@ -87,3 +95,5 @@ performances:
 # THe release you need
 
 Learn more about the experiences and performances that CatharsisFest has in store for you.
+
+![](/img/map.png)
