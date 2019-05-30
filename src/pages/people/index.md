@@ -5,17 +5,146 @@ description: >-
   An overview of our creative team, generous sponsors, performers, and
   volunteers.
 sponsors:
-  - description: Sample Sponsor Description
-    image: /img/flavor-wheel.jpg
-    name: Sample Sponsor
-  - description: This is the second sponsor
-    image: /img/12946841_10102353785581622_1487040008_o.png
-    name: Sponsor two
+  - description: >-
+      From the moment we saw the dirty photo collage covered walls of the
+      bathrooms upstairs, we knew we could make some serious, sexy, powerful art
+      here. NuBlu is also THE place for sultry jazz festivals, amazing
+      cocktails, and dancing any night of the week. Each of their three
+      locations has its own wonderful vibe and you can catch Torn Out
+      collaborators sipping drinks in the backyard of NuBlu Classic, on the
+      terrace inside NuBlu 151, and by the jukebox in NuBlu 151 Studio with some
+      frequency. We couldn't think of a better second home base for our work
+      after Prospect Park.
+    image: /img/unnamed-1-.jpg
+    name: Nublu
+  - description: >-
+      The gorgeous photograph you see at the top of this page is not body paint,
+      clothing, or photo filters! It's a sumptuous light bath by local artist
+      Jarid Blue. Blue bathes people in light (paintings, digital works, and
+      photographs by him and his collaborators), letting them get as comfortable
+      as they like, so that they may relish the feeling of their bodies in that
+      glow, and then he captures these glorious moments as photographs. A
+      like-minded appreciator of the human body, Blue has donated a
+      single-edition print of this perfectly lush poster for one lucky raffle
+      winner to take home at Catharsis Fest!
+    image: /img/unnamed-1-.png
+    name: Jarid Blue / King Mallard
+  - description: >-
+      This Brooklyn-based brand not only has the most beautiful, all-natural,
+      woody, smokey, salty, perfect smelling things to add to your life, they
+      source, create, and sell these sundries with intention and invention.
+      Incausa uses market forces to do good and empower indigenous communities.
+      If you're wondering how you can avoid contributing to the problems caused
+      by most methods of harvesting palo santo and sage, or wondering how you
+      can help the affected communities, start by stopping in Incausa's showroom
+      on India Street. These are the experts! Their brilliance is matched only
+      by their kindness. We are grateful and humbled to be partnering with them
+      to bring you a little ritual of fire in our Catharsis Kits.
+    image: /img/unnamed.png
+    name: Incausa
+  - description: >-
+      Each of these tantalizing pops is handmade with more love than you can
+      possibly imagine by our dear friend and concocter of herbal magic, Jena
+      Chambers. They are startlingly beautiful to look at - shimmering minerals
+      peek through naturally colored sugar, delicious to eat - fruity, floral,
+      herby, and succulent, and really work! Pandora's Pops pack serious herbal
+      power with herbs like damiana. There's a pop for every occasion, from
+      tenth dates to hangovers to work all-nighters. Lucky Catharsis Kit
+      purchasers will get to try the limited edition flavor Howling Pillows made
+      just for us!
+    image: /img/unnamed-2-.jpg
+    name: Pandora's Pops
+  - description: >-
+      Nestled just off the beaten path in Williamsburg, Shag provides a wealth
+      of experiential learning in human sexuality just by walking through its
+      doors. Part apothecary, part gallery, part flea market, part lingerie
+      closet, and part toy chest, there is truly something for everyone. Owners
+      Samantha and Ashley, and mascot Frankie the dog, bring together art,
+      sexuality, and experience in a completely new way that is worth a visit.
+      One lucky Catharsis Fest raffle winner will definitely be doing just that
+      as they'll be nabbing a Shag gift certificate as well as a luxury
+      all-gender toy from Lelo, and so much lube.
+    image: /img/unnamed-2-.png
+    name: Shag...A Sexy Shop
+  - description: >-
+      When we started looking for labels for our custom DIY floggers (available
+      to make for yourself at catharsis fest!), we were overwhelmed with the
+      ordering process and order minimums at most sites. We also just couldn't
+      find what we were looking for. Then we found Woven Label Source. It was
+      painless and easy to create exactly the vegan leather labels we had in
+      mind. When we explained to Gene, the account executive, that we were
+      making these for a nonprofit theater company fundraising event, he decided
+      to gift the entire order in order to support our art! We can't thank Gene
+      enough and we can't stress enough that if you're looking for professional,
+      detailed, perfect fabric tags of any kind, that he's the one to go to.
+    image: /img/unnamed-3-.png
+    name: Woven Label Source
 creative_team:
-  - description: Sample Description
-    image: /img/flavor-wheel.jpg
-    name: Sample Team Member
-    role: Sample Role
+  - description: >-
+      Pitr Strait is a New York-based director and teacher. After graduating
+      from The New School's MFA program, he co-founded Torn Out Theater with
+      Alice Mottola in 2016. Prior to directing Torn Out's debut production of
+      The Tempest, he has directed numerous works by William Shakespeare, Caryl
+      Churchill, and Don Nigro. His film work includes directing Words &
+      Actions, a short film written by Allan Staples; and co-writing the story
+      for Alexis and Bodine Boling's feature film Movement + Location, winner of
+      Best Screenplay at the 2014 Brooklyn Film Festival. Pitr's education work
+      includes both graduate and undergraduate classes at The New School, as
+      well as Concordia Language Villages' French immersion programs.
+    image: /img/download.png
+    name: Pitr Strait
+    role: 'Artistic Director, DJ'
+  - description: >-
+      Diana Levy has worked as a Producer, General Manager, Company Manager, and
+      Press & Marketing Director for a number of projects, including: The
+      Tempest, Hamlet, and The Rover (Torn Out Theater), Henry IV, The Tempest,
+      Richard III (Smith Street Stage), All the Rage (piece by piece productions
+      & Rising Phoenix Rep), Emotional Creature (by Eve Ensler), Murder for Two
+      (New World Stages), Othello, HamletGhosts, Meet Murasaki Shikibu (The
+      Brewing Dept.), Portrait and a Dream, Chemistry, Coping, Cracks
+      (FringeNYC), Pains of Youth (Cake Shop Theatre Co), About Face (Brick
+      Theater). Diana holds a degree in Political Science and Theatre from
+      Columbia University.
+    image: /img/download-1-.jpg
+    name: Diana Levy
+    role: Managing Director
+  - description: >-
+      Elizabeth Weitzen is a theatre artist - designer, performer, producer,
+      activist, and emcee. At NYU Tisch, she trained at Atlantic, Stella Adler,
+      ETW, and in Mary Overlie's Viewpoints, as well as with Kitty Leech and
+      Erin Slattery Black in costume design. Elizabeth performs regularly at
+      private parties, corporate events, and fundraisers all over the east
+      coast. Prior work includes: founding/directing Shag Playhouse, a
+      performing company in residence at a sex shop/art space in Brooklyn;
+      company member and resident designer with The DLP, a radically
+      experimental Shakespeare troupe; and shows with 3LD, Amos Eno Gallery,
+      FringeNYC, Radiohole, New Perspectives, as well as regional theaters
+      across the country and black boxes across the city. Much of Elizabeth's
+      work is rooted in her advocacy for bodily autonomy and exploration of site
+      specific performance for nontraditional spaces. Elizabeth lives in Jersey
+      City with her partner and their amazing cat, and she is delighted to be
+      working in residence with TOT to create these fervently exciting new
+      works!
+    image: /img/download.jpg
+    name: Elizabeth Weitzen
+    role: 'Producer, Doomsday prophet'
+  - description: >-
+      Britt Berke is a New York-based director with roots in dramaturgy and
+      devising. Recently, Britt directed Promenade in concert in The Public
+      Theater’s The Rest I Make Up Marathon and Bertolt Brecht’s A Respectable
+      Wedding in the Barnard College Senior Thesis Festival. Britt was the SDCF
+      Directing Observer on Lileana Blain-Cruz's Fabualtion, or the Re-Education
+      of Undine (by Lynn Nottage, at Signature Theatre). Britt has also directed
+      for the Glicker-Milstein Summer Theater Festival and the Columbia Musical
+      Theatre Society, and has assistant directed with Pitr Strait (Torn Out
+      Theater), Kara Feely (Object Collection), Jean Wagner (Mabou Mines),
+      Shannon Sindelar and Alice Reagan. She worked as the Editorial Assistant
+      at The Drama Review and has interned with WP Theater, Theatre
+      Communications Group and New Georges. Britt is a proud alumna of Barnard
+      College.     
+    image: /img/britt-berke-headshot.jpg
+    name: Britt Berke
+    role: 'Associate Artistic Director, Stage manager'
 performers:
   - description: >-
       Nell is a British Actor and Producer living and experimenting in the US.
@@ -185,26 +314,6 @@ performers:
     image: /img/rachel-s.jpg
     name: Rachel Switlick
     role: Fighter
-  - description: >-
-      Elizabeth Weitzen is a theatre artist - designer, performer, producer,
-      activist, and emcee. At NYU Tisch, she trained at Atlantic, Stella Adler,
-      ETW, and in Mary Overlie's Viewpoints, as well as with Kitty Leech and
-      Erin Slattery Black in costume design. Elizabeth performs regularly at
-      private parties, corporate events, and fundraisers all over the east
-      coast. Prior work includes: founding/directing Shag Playhouse, a
-      performing company in residence at a sex shop/art space in Brooklyn;
-      company member and resident designer with The DLP, a radically
-      experimental Shakespeare troupe; and shows with 3LD, Amos Eno Gallery,
-      FringeNYC, Radiohole, New Perspectives, as well as regional theaters
-      across the country and black boxes across the city. Much of Elizabeth's
-      work is rooted in her advocacy for bodily autonomy and exploration of site
-      specific performance for nontraditional spaces. Elizabeth lives in Jersey
-      City with her partner and their amazing cat, and she is delighted to be
-      working in residence with TOT to create these fervently exciting new
-      works! 
-    image: /img/download.jpg
-    name: Elizabeth Weitzen
-    role: Doomsday Prophet
 volunteers:
   - description: Sample Description
     image: /img/flavor-wheel.jpg
