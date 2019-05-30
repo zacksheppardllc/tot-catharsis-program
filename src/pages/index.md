@@ -5,29 +5,21 @@ description: >-
   An immersive carnival of rage, passion, and recovery. In New York City on May
   30, 8-11pm. Buy tickets now!
 ---
-# Welcome
+# You did it
 
-This is where you'd put a welcome letter to people who are attending CatharsisFest.
+You made it through the day. And the week. And the month. You've been through so much. Frustration, worry, anxiety, anger, and tourists blocking the sidewalk. And you've kept it all in! Holding in those feelings, trying to keep it together.
 
-For now, here's some filler text of Jeff Goldblum lines. Thanks, [jeffsum.com](https://jeffsum.com)!
+Well it's time to stop keeping it together.
 
-God help us, we're in the hands of engineers. Must go faster. Did he just throw my cat out of the window? Did he just throw my cat out of the window? Must go faster. Must go faster... go, go, go, go, go! Eventually, you do plan to have dinosaurs on your dinosaur tour, right?
+## **It's time to let it all out.**
 
-Must go faster. God creates dinosaurs. God destroys dinosaurs. God creates Man. Man destroys God. Man creates Dinosaurs. Jaguar shark! So tell me - does it really exist? Just my luck, no ice. Eventually, you do plan to have dinosaurs on your dinosaur tour, right?
+# **WELCOME TO CATHARSISFEST.**
 
-This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power windows. Do you have any idea how long it takes those cups to decompose. What do they got in there? King Kong? You really think you can fly that thing? Is this my espresso machine? Wh-what is-h-how did you get my espresso machine?
+You have arrived at a carnival of rage, passion, and recovery. Here, you'll find everything you need to achieve that beautiful bliss, that delicious release, that near-religious experience of CATHARSIS. Ask yourself: what do you need tonight to feel good? to feel at peace? to release? Do you need to hurl some sharp objects at a face that drives you insane? Head over to target practice and pick your victim. Do you need to get something deep and dark off your chest? A confession booth awaits you, ready to take your sins off your chest. Do you need to feel beautiful? A skilled face and body painter is waiting for you, rainbow palette at the ready.
 
-Oh also here's a test of some different styles:
+Tonight, you will see performances from fierce artists who want to make you howl and laugh and cry. You will have your choice of cathartic carnival activities, a smorgasbord of forbidden delights. You'll dance, you'll drink, you'll party. This phone in your hand can show you what awaits you. Just click **FEATURING** above to see what's coming next, or **BROUGHT TO YOU BY** to learn more about your friendly neighborhood catharsis experts.
 
-**Bold**
+You've earned this. You deserve this. Let it all out.
 
-_Italic_
-
-> Block Quote
-
-And an inserted image:
-
-![HAWKWARD](/img/img_9128.png "Hawkward")
-
-**Love,**\
-**The Torn Out Team**
+**From Us to You,**\
+**Torn Out Theater**
