@@ -155,7 +155,7 @@ performers:
       activities! https://www.nellrbailey.com/ Instagram: @nell_rose_bailey
     image: /img/aw_nellheadshots-4.jpeg
     name: Nell Rose Bailey
-    role: Sample Role
+    role: catharsis coordinator
   - description: >-
       Max Baudisch, who plays the Sales Associate and the Friend of Kavanaugh
       Towel Bro, is feeling very cathartic and is excited to be a part of Torn
@@ -308,6 +308,13 @@ performers:
     name: Jackie Schram
     role: Fortune Teller
   - description: >-
+      Zack Sheppard (he/him) is a freelance software person who likes to be
+      dramatic and make pretty photos. You can find out more about him at
+      zacksheppard.com.
+    image: /img/zack.jpeg
+    name: zack sheppard
+    role: 'Photographer, videographer'
+  - description: >-
       Rachel Switlick is a fighter, performer, choreographer, and arts academic.
       When she’s not studying self-defense practices, she works to find ways to
       make the arts viable in current society.
@@ -315,10 +322,38 @@ performers:
     name: Rachel Switlick
     role: Fighter
 volunteers:
+  - description: '-'
+    image: /img/zack.jpeg
+    name: pinar and the staff of nublu 151
+    role: '-'
+  - description: '-'
+    image: /img/zack.jpeg
+    name: andrea lopez
+    role: '-'
   - description: Sample Description
     image: /img/flavor-wheel.jpg
-    name: Sample Team Member
-    role: Sample Role
+    name: adam may
+    role: test
+  - description: '-'
+    image: /img/zack.jpeg
+    name: Laura peterson
+    role: '-'
+  - description: '-'
+    image: /img/zack.jpeg
+    name: madeleine rose
+    role: '-'
+  - description: '-'
+    image: /img/zack.jpeg
+    name: seashell atwill-strait
+    role: '-'
+  - description: '-'
+    image: /img/zack.jpeg
+    name: yago strait-atwill
+    role: '-'
+  - description: '-'
+    image: /img/zack.jpeg
+    name: natasha weitzen
+    role: '-'
 ---
 
 # Our Team
