@@ -173,18 +173,6 @@ performers:
     name: Max Baudisch
     role: 'Comedian, powerful man'
   - description: >-
-      Bad News Bear is a non-binary drag performer who has been performing in
-      Brooklyn and Manhattan for the past two years. A Queen, King, and Quing;
-      Bad News Bear is a genderfucked clown-punk merbabe. But most importantly,
-      Bad News Bear is a nazi-bashing mess. You can see Bad News Bear kittening
-      and performing at the twice monthly punk drag show, Queer as in Fuck You
-      at Otto's Shrunken Head. Their next upcoming performance is Pan, a drag
-      and burlesque showcase of Peter Pan, on June 14 at the Huron Club. 
-      Instagram @badnewsbeardrag
-    image: /img/bear.jpg
-    name: Bad News Bear
-    role: Drag
-  - description: >-
       Miss Birdy does everything from face painting to singing in a rock band,
       but mostly she works with kids. She sees makeup as a fun way to play with
       putting your insides on your outside and NOT as a way to conform to
