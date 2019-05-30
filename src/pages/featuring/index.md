@@ -41,7 +41,7 @@ experiences:
       really, REALLY like to smash? Come and make a playdoh sculpture of your
       least-favorite thing, and then crush it (or crush someone else's)!
     name: Playdoh smashing
-    price: free!
+    price: 2 tokens
   - description: >-
       Your body is a work of art – let our artist add to your canvas! /// 2
       tokens: have your face or body painted
