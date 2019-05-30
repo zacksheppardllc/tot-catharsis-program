@@ -10,7 +10,7 @@ const FeaturingBlock = ({ name, description, meta }) => {
     <div className="featured">
       <div className="meta">
         <h4>{name}</h4>
-        <h5>{meta}</h5>
+        {meta && <h5>{meta}</h5>}
       </div>
       <p>{description}</p>
     </div>
@@ -38,7 +38,7 @@ export const FeaturingPageTemplate = ({
               return (
                 <FeaturingBlock
                   {...experience}
-                  meta={`$${experience.price}`}
+                  meta={experience.price}
                   key={`experiences-${i}`}
                 />
               );
@@ -48,17 +48,8 @@ export const FeaturingPageTemplate = ({
           <section className="content performances">
             <h2 name="performances">Performances</h2>
             {performances.map((performance, i) => {
-              const startTimeDate = new Date(performance.start_time);
-              const startTime = startTimeDate.toLocaleTimeString([], {
-                hour: "2-digit",
-                minute: "2-digit"
-              });
               return (
-                <FeaturingBlock
-                  {...performance}
-                  meta={startTime}
-                  key={`performances-${i}`}
-                />
+                <FeaturingBlock {...performance} key={`performances-${i}`} />
               );
             })}
           </section>
@@ -117,7 +108,6 @@ export const featuringPageQuery = graphql`
         }
         performances {
           name
-          start_time
           description
         }
       }

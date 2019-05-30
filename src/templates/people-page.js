@@ -63,9 +63,18 @@ export const PeoplePageTemplate = ({
           </section>
           <hr />
           <section className="content volunteers">
-            <h2 name="volunteers">Volunteers</h2>
+            <h2 name="volunteers">Special Thanks</h2>
             {volunteers.map((volunteer, i) => {
-              return <PersonBlock entity={volunteer} key={`volunteers-${i}`} />;
+              return (
+                <div className="person" key={`volunteers-${i}`}>
+                  <div className="image" />
+                  <div className="text">
+                    <div className="meta">
+                      <h4>{volunteer.name}</h4>
+                    </div>
+                  </div>
+                </div>
+              );
             })}
           </section>
         </div>
